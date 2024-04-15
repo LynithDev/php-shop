@@ -1,6 +1,8 @@
 <center>
-  <p style="font-size: 34px; font-weight: 700;">PHP Shop</p>
-  Made by <code>Lynith</code>
+
+  # PHP Shop
+  Made by <code>Lynith</code>, I suck at PHP
+
 </center>
 
 ## General Description
