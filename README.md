@@ -1,3 +1,5 @@
+# quickly written school homework. most likely has many issues. don't use or rate.
+
 <center>
 
   # PHP Shop
