@@ -1,0 +1,76 @@
+.form_container {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20%;
+    box-sizing: border-box;
+}
+
+.account_form {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 400px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid #f0f0f0;
+}
+
+.account_form > * {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.account_form > .graphic {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffddb9;
+}
+
+.account_form > .graphic img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.account_form > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    box-sizing: border-box;
+}
+
+.account_form .error {
+    color: #ff0000;
+    font-size: 14px;
+    height: 16px;
+}
+
+.button[type="submit"] {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .account_form {
+        grid-template-columns: 1fr;
+    }
+
+    .account_form > .graphic {
+        order: -1;
+    }
+}
